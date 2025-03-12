@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <title>Send Me Any Quote</title>
+
+    <style>
+      body {
+        font-family: Arial;
+        background-color: slateblue;
+      }
+
+      .container {
+        width: 400px;
+        padding: 50px;
+      }
+
+      h1 {
+        margin-bottom: 50;
+        font-size: 40px;
+        font-weight: bold;
+        color: antiquewhite;
+      }
+
+      label {
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        display: block;
+        color: antiquewhite;
+      }
+
+      input[type="text"],
+      input[type="text"] {
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+
+      button {
+        margin-top: 30px;
+        padding: 5px;
+        background-color: grey;
+        color: white;
+        font-weight: bold;
+      }
+
+      button:hover {
+        background-color: darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Send Me Any Quote</h1>
+
+      <form id="submit" action="Lab2-Success.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="text">Quote:</label>
+        <input type="text" id="text" />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
